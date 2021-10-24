@@ -1,0 +1,13 @@
+collectfast
+dj-database-url
+django
+django-debug-toolbar
+django-extensions
+django-ordered-model
+django-s3-folder-storage
+gunicorn
+ipython
+psycopg2-binary
+pytest-django
+python-decouple
+sentry-sdk
