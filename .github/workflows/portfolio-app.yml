@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: 3.9
           architecture: x64
-      - name: Copiar Configurações .env
+      - name: Copiar Configurações env-sample
         run: |
           cp contrib/env-sample .env
       - name: Instalar dependências
