@@ -33,7 +33,10 @@ ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())  # Csv separa lista apartir 
 
 # Application definition
 
+AUTH_USER_MODEL = 'base.User'
+
 INSTALLED_APPS = [
+    'portfolio.base',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -41,7 +44,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'collectfast',
     'django.contrib.staticfiles',
-    'portfolio.base',
 ]
 
 MIDDLEWARE = [
