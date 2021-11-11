@@ -1,5 +1,5 @@
-{% load static %}
 <!DOCTYPE html>
+{% load static %}
 <html lang="pt-br">
 <head>
     <title>Portfolio Rafael Meireles</title>
@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Boootstrap Portfolio/Resume Theme for Developers">
+    <meta name="description" content="Boootstrap Portfolio">
     <meta name="author" content="Rafael Meireles">
     <link rel="shortcut icon" href="{% static 'images/your-logo.png' %}">
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet'
@@ -48,7 +48,7 @@
         <div class="row align-items-center">
             <div class="col">
                 <img class="profile-image img-fluid float-start rounded-circle"
-                     src="../../static/images/Rafael Meireles - Natureza-330.jpg" alt="profile image"/>
+                     src="{% static 'images/Rafael Meireles - Natureza-330.jpg' %}" alt="profile image"/>
                 <div class="profile-content">
                     <h1 class="name">Rafael Meireles</h1>
                     <h2 class="desc">Backend Python | WEB DJANGO | HTML5 e CSS3| Bootstrap | Github | Linux </h2>
@@ -106,7 +106,7 @@
 
                             <div class="featured-image has-ribbon">
                                 <img class="img-fluid project-image rounded shadow-sm"
-                                     src="../../static/images/projects/cursodjango510x400.png" alt="project name"/>
+                                     src="{% static 'images/projects/cursodjango510x400.png' %}" alt="project name"/>
                                 </a>
                             </div>
 
@@ -126,7 +126,7 @@
                         <div class="item row">
                             <a class="col-md-4 col-12">
                                 <img class="img-fluid project-image rounded shadow-sm"
-                                     src="../../static/images/projects/libpythonpro-510x400.png"
+                                     src="{% static 'images/projects/libpythonpro-510x400.png' %}"
                                      alt="libavatar-github"/>
                             </a>
                             <div class="desc col-md-8 col-12">
@@ -144,7 +144,7 @@
                             <a class="col-md-4 col-12" href="https://rafael-hsm.github.io/HTML5-e-CSS3/"
                                target="_blank">
                                 <img class="img-fluid project-image rounded shadow-sm"
-                                     src="../../static/images/projects/HTML5eCSS3-510X400.png" alt="HTML5 e CSS3"/>
+                                     src="{% static 'images/projects/HTML5eCSS3-510X400.png' %}" alt="HTML5 e CSS3"/>
                             </a>
                             <div class="desc col-md-8 col-12">
                                 <h3 class="title"><a href="https://rafael-hsm.github.io/HTML5-e-CSS3/" target="_blank">Projeto
@@ -162,7 +162,7 @@
                         <div class="item row">
                             <a class="col-md-4 col-12">
                                 <img class="img-fluid project-image rounded shadow-sm"
-                                     src="../../static/images/projects/python-exercices.png"
+                                     src="{% static 'images/projects/python-exercices.png' %}"
                                      alt="Exercícios em Python"/>
                             </a>
                             <div class="desc col-md-8 col-12">
